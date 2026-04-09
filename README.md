@@ -1,5 +1,22 @@
 # Conversion Propensity Modeling with GBT (PySpark)
 
+## 🚀 Project Evolution
+
+This project represents an earlier version of a conversion propensity model.
+
+It was later extended into a more advanced system:
+
+👉 **ml-batch-prioritization-system**
+
+The newer version includes:
+
+- Leakage-free temporal feature engineering  
+- Ranking-based evaluation (lift, top capture)  
+- End-to-end batch pipeline design  
+- Model lifecycle management with MLflow and model registry  
+
+This repository is kept to demonstrate the evolution from a modeling-focused approach to a production-oriented ML system.
+
 This repository presents an **end-to-end machine learning project** focused on **conversion propensity modeling** using **PySpark** and **Gradient Boosted Trees (GBTClassifier)**.
 
 The project demonstrates how to build, evaluate, and operationalize a propensity model in a **scalable Spark environment**, following best practices in feature engineering, model validation, and experiment tracking with **MLflow**.
